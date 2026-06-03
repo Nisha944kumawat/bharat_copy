@@ -38,7 +38,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Yahan apni generated Brevo SMTP key paste karo
         $mail->Password = getenv('BREVO_SMTP_KEY');    
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-        $mail->Port = 587;
+        $mail->Port = 465;
 
         // Sender Email (Brevo me verify hona chahiye)
         $mail->setFrom(
