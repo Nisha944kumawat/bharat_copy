@@ -1,8 +1,5 @@
-# Composer
-vendor/
 
 # Logs
 *.log
-
 # Images & Videos (temporarily ignore)
 assets/img/
